@@ -27,8 +27,10 @@ const Home = (props) => {
 			<div style={letterStyle}><i className="fa-regular fa-clock"></i></div>
 			<div style={letterStyle} id="numberSix">{props.numberSix}</div>
 			<div style={letterStyle} id="numberFive">{props.numberFive}</div>
+			<div style={letterStyle} id="numberFive">:</div>
 			<div style={letterStyle} id="numberFour">{props.numberFour}</div>
 			<div style={letterStyle} id="numberThree">{props.numberThree}</div>
+			<div style={letterStyle} id="numberFive">:</div>
 			<div style={letterStyle} id="numberTwo">{props.numberTwo}</div>
 			<div style={letterStyle} id="numberOne">{props.numberOne}</div>
 		</div>
